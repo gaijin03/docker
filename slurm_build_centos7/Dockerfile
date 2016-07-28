@@ -13,6 +13,7 @@ RUN yum -y install \
 	    lua-devel \
 	    man \
 	    man2html \
+	    mariadb \
 	    mariadb-devel \
 	    munge \
 	    munge-devel \

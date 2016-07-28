@@ -21,7 +21,8 @@ RUN yum -y install \
 	    openssl-devel \
 	    pam-devel \
 	    readline-devel \
-	    rrdtool-devel
+	    rrdtool-devel \
+	    which
 RUN echo "thisismysecretmungekeythatis32bytes" > /etc/munge/munge.key
 RUN chown munge:munge /etc/munge/munge.key
 RUN chmod 0400 /etc/munge/munge.key

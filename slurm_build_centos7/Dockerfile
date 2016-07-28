@@ -13,9 +13,9 @@ RUN yum -y install \
 	    lua-devel \
 	    man \
 	    man2html \
+	    mariadb-devel \
 	    munge \
 	    munge-devel \
-	    mysql-devel \
 	    ncurses-devel \
 	    numactl-devel \
 	    openssl-devel \

@@ -25,6 +25,5 @@ RUN yum -y install \
 RUN echo "thisismysecretmungekeythatis32bytes" > /etc/munge/munge.key
 RUN chown munge:munge /etc/munge/munge.key
 RUN chmod 0400 /etc/munge/munge.key
-VOLUME ["/slurm"]
 WORKDIR /slurm
 CMD ["/bin/bash"]

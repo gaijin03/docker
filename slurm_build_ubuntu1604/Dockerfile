@@ -22,6 +22,5 @@ RUN apt-get update && apt-get install -y \
 	    munge \
 	    python
 RUN echo "thisismysecretmungekeythatis32bytes" > /etc/munge/munge.key
-VOLUME ["/slurm"]
 WORKDIR /slurm
 CMD ["/bin/bash"]

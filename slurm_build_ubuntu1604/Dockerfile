@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
 	    hdf5-tools \
 	    iputils-ping \
 	    net-tools \
+	    libcurl4-gnutls-dev \
 	    libgtk2.0-dev \
 	    libhdf5-dev \
 	    libhwloc-dev \

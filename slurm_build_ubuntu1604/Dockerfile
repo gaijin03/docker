@@ -22,7 +22,8 @@ RUN apt-get update && apt-get install -y \
 	    man2html \
 	    munge \
 	    mysql-client \
-	    python
+	    python \
+	    vim
 RUN echo "thisismysecretmungekeythatis32bytes" > /etc/munge/munge.key
 WORKDIR /slurm
 CMD ["/bin/bash"]

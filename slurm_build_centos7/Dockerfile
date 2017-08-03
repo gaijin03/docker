@@ -25,6 +25,7 @@ RUN yum -y install \
 	    perl-ExtUtils-MakeMaker \
 	    readline-devel \
 	    rrdtool-devel \
+	    vim \
 	    which
 RUN echo "thisismysecretmungekeythatis32bytes" > /etc/munge/munge.key
 RUN chown munge:munge /etc/munge/munge.key

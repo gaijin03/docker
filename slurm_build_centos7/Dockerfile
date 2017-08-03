@@ -22,6 +22,7 @@ RUN yum -y install \
 	    numactl-devel \
 	    openssl-devel \
 	    pam-devel \
+	    perl-ExtUtils-MakeMaker \
 	    readline-devel \
 	    rrdtool-devel \
 	    which

@@ -21,6 +21,7 @@ RUN yum -y install \
 	    numactl-devel \
 	    openssl-devel \
 	    pam-devel \
+	    perl-ExtUtils-MakeMaker \
 	    readline-devel \
 	    rrdtool-devel
 RUN echo "thisismysecretmungekeythatis32bytes" > /etc/munge/munge.key

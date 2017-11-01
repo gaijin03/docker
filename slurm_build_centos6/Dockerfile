@@ -11,6 +11,7 @@ RUN yum -y install \
 	    libcurl-devel \
 	    libibmad \
 	    libibumad \
+	    libssh2-devel \
 	    lua-devel \
 	    man \
 	    man2html \

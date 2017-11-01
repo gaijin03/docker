@@ -19,6 +19,7 @@ RUN apt-get update && apt-get install -y \
 	    libncurses-dev \
 	    libpam0g-dev \
 	    librrd-dev \
+	    libssh2-1-dev \
 	    libssl-dev \
 	    man2html \
 	    munge \

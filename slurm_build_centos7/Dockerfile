@@ -9,10 +9,11 @@ RUN yum -y install \
 	    hdf5-devel \
 	    hwloc-devel \
 	    libcurl-devel \
-	    libibmad \
-	    libibumad \
+	    libibmad-devel \
+	    libipmi* \
 	    libssh2-devel \
 	    lua-devel \
+	    lz4-devel \
 	    man \
 	    man2html \
 	    mariadb \

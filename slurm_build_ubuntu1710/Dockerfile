@@ -13,6 +13,8 @@ RUN apt-get update && apt-get install -y \
 	    libgtk2.0-dev \
 	    libhdf5-dev \
 	    libhwloc-dev \
+	    libibmad-dev \
+	    libipmi* \
 	    liblua5.2-dev \
 	    libmunge-dev \
 	    libmysqlclient-dev \
@@ -21,6 +23,7 @@ RUN apt-get update && apt-get install -y \
 	    librrd-dev \
 	    libssh2-1-dev \
 	    libssl-dev \
+	    lz4-dev \
 	    man2html \
 	    munge \
 	    mysql-client \

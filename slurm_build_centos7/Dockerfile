@@ -10,6 +10,7 @@ RUN yum -y install \
 	    hwloc-devel \
 	    libcurl-devel \
 	    libibmad-devel \
+	    libibumad-devel \
 	    libipmi* \
 	    libssh2-devel \
 	    lua-devel \

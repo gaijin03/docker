@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install -y \
 	    libhdf5-dev \
 	    libhwloc-dev \
 	    libibmad-dev \
+	    libibumad-dev \
 	    libipmi* \
 	    liblua5.2-dev \
 	    libmunge-dev \

@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
 	    libgtk2.0-dev \
 	    libhdf5-dev \
 	    libhwloc-dev \
+	    libjson-c-dev \
 	    liblua5.2-dev \
 	    libmunge-dev \
 	    libmysqlclient-dev \

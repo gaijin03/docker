@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y \
 	    libibmad-dev \
 	    libibumad-dev \
 	    libipmi* \
+	    libjson-c-dev \
 	    liblua5.2-dev \
 	    libmunge-dev \
 	    libmysqlclient-dev \

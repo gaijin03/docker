@@ -8,6 +8,7 @@ RUN yum -y install \
 	    gtk2-devel \
 	    hdf5-devel \
 	    hwloc-devel \
+	    json-c-devel \
 	    libcurl-devel \
 	    libibmad-devel \
 	    libibumad-devel \

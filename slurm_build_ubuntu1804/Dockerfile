@@ -25,7 +25,7 @@ RUN apt-get update && apt-get install -y \
 	    librrd-dev \
 	    libssh2-1-dev \
 	    libssl-dev \
-	    lz4-dev \
+	    liblz4-dev \
 	    man2html \
 	    munge \
 	    mysql-client \

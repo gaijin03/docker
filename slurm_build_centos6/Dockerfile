@@ -10,6 +10,7 @@ RUN yum -y install \
 	    hwloc-devel \
 	    json-c-devel \
 	    libcurl-devel \
+	    libevent-devel \
 	    libibmad-devel \
 	    libibumad-devel \
 	    libssh2-devel \

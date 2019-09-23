@@ -3,6 +3,7 @@ RUN apt-get update && apt-get install -y \
 	    autoconf \
 	    build-essential \
 	    clang \
+	    clang-tools \
 	    expect \
 	    git \
 	    hdf5-tools \

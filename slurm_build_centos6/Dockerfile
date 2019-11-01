@@ -26,6 +26,7 @@ RUN yum -y install \
 	    openssl-devel \
 	    pam-devel \
 	    perl-ExtUtils-MakeMaker \
+	    python34 \
 	    readline-devel \
 	    rrdtool-devel \
 	    vim

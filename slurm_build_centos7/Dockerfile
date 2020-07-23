@@ -7,6 +7,7 @@ RUN yum -y install \
 	    expect \
 	    gtk2-devel \
 	    hdf5-devel \
+	    http-parser-devel \
 	    hwloc-devel \
 	    json-c-devel \
 	    libcurl-devel \

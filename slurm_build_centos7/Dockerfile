@@ -1,6 +1,7 @@
 FROM centos:7
 RUN yum -y groupinstall 'Development Tools'
 RUN yum -y install epel-release
+RUN yum -y install http://repo.openfusion.net/centos7-x86_64/openfusion-release-0.7-1.of.el7.noarch.rpm
 RUN yum -y install \
 	    clang \
 	    clang-analyzer \
@@ -11,6 +12,7 @@ RUN yum -y install \
 	    hwloc-devel \
 	    json-c-devel \
 	    libcurl-devel \
+	    libjwt-devel \
 	    libevent-devel \
 	    libibmad-devel \
 	    libibumad-devel \

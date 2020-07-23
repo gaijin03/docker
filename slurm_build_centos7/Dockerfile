@@ -16,6 +16,7 @@ RUN yum -y install \
 	    libibumad-devel \
 	    libipmi* \
 	    libssh2-devel \
+	    libyaml-devel \
 	    lua-devel \
 	    lz4-devel \
 	    man \

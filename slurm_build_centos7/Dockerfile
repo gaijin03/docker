@@ -32,6 +32,7 @@ RUN yum -y install \
 	    openssl-devel \
 	    pam-devel \
 	    perl-ExtUtils-MakeMaker \
+	    perl-ExtUtils-ParseXS \
 	    python3 \
 	    readline-devel \
 	    rrdtool-devel \

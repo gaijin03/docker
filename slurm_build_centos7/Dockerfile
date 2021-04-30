@@ -33,6 +33,7 @@ RUN yum -y install \
 	    pam-devel \
 	    perl-ExtUtils-MakeMaker \
 	    perl-ExtUtils-ParseXS \
+	    pmix-devel \
 	    python3 \
 	    readline-devel \
 	    rrdtool-devel \

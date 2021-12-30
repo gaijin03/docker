@@ -43,6 +43,15 @@ RUN apt-get update && apt-get install -y \
 	    openssh-server \
 	    python \
 	    vim
+
+RUN wget -q -O - https://repo.radeon.com/rocm/rocm.gpg.key | apt-key add -
+RUN echo "deb http://archive.ubuntu.com/ubuntu/ focal main restricted" > /etc/apt/sources.list.d/rocm.list
+RUN echo "deb http://archive.ubuntu.com/ubuntu/ focal main universe" >> /etc/apt/sources.list.d/rocm.list
+RUN echo "deb [arch=amd64] https://repo.radeon.com/rocm/apt/debian/ ubuntu main" >> /etc/apt/sources.list.d/rocm.list
+
+RUN apt-get update && apt-get install -y rocm-dev rocm-smi-lib
+RUN rm /etc/apt/sources.list.d/rocm.list
+
 RUN echo "thisismysecretmungekeythatis32bytes" > /etc/munge/munge.key
 WORKDIR /slurm
 CMD ["/bin/bash"]

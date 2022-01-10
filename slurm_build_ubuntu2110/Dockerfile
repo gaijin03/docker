@@ -4,6 +4,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt-get update && apt-get install -y \
 	    autoconf \
 	    build-essential \
+	    check \
 	    clang \
 	    clang-tools \
 	    expect \

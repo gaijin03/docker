@@ -42,7 +42,6 @@ RUN apt-get update && apt-get install -y \
 	    munge \
 	    mysql-client \
 	    openssh-server \
-	    python \
 	    vim
 
 # ROCM

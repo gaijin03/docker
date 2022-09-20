@@ -10,10 +10,13 @@ RUN apt-get update && apt-get install -y \
 	    expect \
 	    flex \
 	    git \
+	    git-gui \
+	    gitk \
 	    hdf5-tools \
 	    iputils-ping \
 	    net-tools \
 	    libcurl4-gnutls-dev \
+	    libdbus-1-dev \
 	    libevent-dev \
             libfreeipmi-dev \
 	    libgtk2.0-dev \
